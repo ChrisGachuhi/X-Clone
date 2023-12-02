@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-form {
+  /* height: 50vh; */
+  width: 40vw;
+  /* background-color: beige; */
+}
+
+.tweetContainer {
+  height: 400px;
+  width: fit-content;
+  overflow-y: scroll;
+  /* background-color: aqua; */
+}
+
+.tweet {
+  padding: 20px 5px;
+  border-bottom: solid 1px gray;
+}
+
+.tweetDisplay {
+  height: 200px;
+  width: 400px;
+  max-width: 600px;
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  /* background-color: aqua; */
+}
+
+.commentContainer {
+  height: 300px;
+  width: 400px;
+  margin-top: 10px;
+  padding: 20px 10px;
+  overflow-y: scroll;
+  /* background-color: aqua; */
+}
